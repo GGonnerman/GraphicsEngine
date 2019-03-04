@@ -1,9 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class SwingTimerEx extends JFrame {
+class SwingTimerEx extends JFrame {
 
-    public SwingTimerEx() {
+    private SwingTimerEx() {
         initUI();
     }
 
@@ -14,7 +14,7 @@ public class SwingTimerEx extends JFrame {
         setResizable(false);
         pack();
 
-        setTitle("Star");
+        setTitle("Physics");
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
